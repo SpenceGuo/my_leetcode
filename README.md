@@ -1,7 +1,7 @@
-# leetcode
+# Introductions
  my leetcode algorithm
  
-# Question number
+# Question numbers, Descriptions & Codes
 <table>
 <tr>
 <td>Question number</td>
