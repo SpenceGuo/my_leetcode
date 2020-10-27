@@ -10,4 +10,3 @@ class Solution:
         sum_Node = ListNode()
 
         return sum_Node
-    

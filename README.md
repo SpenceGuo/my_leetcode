@@ -7,6 +7,7 @@
 <td>Question number</td>
 <td>Description</td>
 <td>Python3</td>
+<td>Condition</td>
 </tr>
 
 <tr>
@@ -15,6 +16,7 @@
 换而言之，对于每个nums[i]你必须计算出有效的j的数量，其中 j 满足j != i 且 nums[j] < nums[i]。
 以数组形式返回答案。</td>
 <td><a href="algorithms/python3/1480.py">1365.py</a></td>
+<td>pass</td>
 </tr>
 
 <tr>
@@ -23,5 +25,6 @@
 请返回 nums 的动态和。
 </td>
 <td><a href="algorithms/python3/1480.py">1480.py</a></td>
+<td>pass</td>
 </tr>
 </table>
