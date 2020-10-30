@@ -12,6 +12,6 @@ class Solution:
             result[row_index, :] + 1
 
 
-a = np.zeros([2, 3], int)
+a = np.zeros([3, 3], int)
 print(a[1, :] + 1)
 print(a)
