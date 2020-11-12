@@ -1,13 +1,6 @@
 import math
 
-
-def test():
-    a = 1
-    b = 2
-    return a,b
-
-
-c,d = test()
-print(c,d)
-
-print(pow(2, 31))
+a = [1,2,3,2,1]
+a.sort()
+b = sorted(a)
+print(b)
