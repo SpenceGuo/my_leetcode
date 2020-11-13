@@ -1,6 +1,6 @@
 import math
 
-a = [1,2,3,2,1]
-a.sort()
-b = sorted(a)
-print(b)
+test = ['i','hate','this']
+string = 'abcdefghi'
+print(string[::-1])
+print(':'.join(test))
