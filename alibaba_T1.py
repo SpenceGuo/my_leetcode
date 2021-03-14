@@ -8,9 +8,9 @@ def getMissK(k: int, nums: List):
     while index < len(nums):
         index += 1
         i += 1
-        if index<len(nums) and nums[index]>i:
+        if index < len(nums) and nums[index] > i:
             if k <= (nums[index]-i):
-                return i + k -1
+                return i + k - 1
             k = k-(nums[index]-i)
             i = nums[index]
     else:
