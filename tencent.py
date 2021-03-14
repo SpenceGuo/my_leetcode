@@ -31,4 +31,4 @@ class Solution:
 
 
 x = Solution()
-print(x.maxSum([3,-1,4,3,-5,9,0]))
+print(x.maxSum([3,-1,4,3,-5,8,9]))
