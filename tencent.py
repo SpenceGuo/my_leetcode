@@ -30,5 +30,30 @@ class Solution:
         return result
 
 
-x = Solution()
-print(x.maxSum([3,-1,4,3,-5,9,0]))
+# 动态规划
+class Solution1:
+    def maxSum(self, nums: List[int]) -> int:
+        if len(nums) == 0:
+            return 0
+        elif len(nums) == 1:
+            return nums[0]
+        elif len(nums) == 2:
+            return max(nums[0], nums[1])
+        temp = []
+        for i in range(len(nums)):
+            if nums[i] >= 0:
+                temp.append(nums[i])
+            else:
+                temp.append(0)
+        dp = [0] * len(temp)
+        dp[0], dp[1] = temp[0], max(temp[0], temp[1])
+        for j in range(2, len(temp)):
+            dp[j] = max(temp[j]+dp[j-2], dp[j-1])
+        return dp[len(temp)-1]
+
+
+x = Solution1()
+print(x.maxSum([3,-1,4,3,-5,8,9]))
+# x = [3, -1, 4, 3, -5, 0, 8, 9]
+# print(x)
+
