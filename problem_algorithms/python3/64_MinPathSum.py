@@ -8,7 +8,6 @@ class Solution:
         elif len(grid[0]) <= 1:
             return sum([i[0] for i in grid])
         m, n = len(grid), len(grid[0])
-        # dp1 = [[0]*n]*m
         dp = [[0] * n for _ in range(m)]
         dp[0][0] = grid[0][0]
         for a in range(1, m):
