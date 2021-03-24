@@ -4,4 +4,7 @@ a = [
     [7, 8, 9]
 ]
 
-print(sum([a[0:2]]))
+print(sum([m for n in a for m in n]))
+print(a[1:2:])
+s = 'abc'
+print(s[0:1])
