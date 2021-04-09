@@ -1,5 +1,5 @@
-import numpy as np
+import csv
 
-a = np.array([1, 2, 3])
-b = a.tolist()
-print(a)
+f = open('NcovWords.txt', 'r', encoding='utf-8')
+data = f.readlines()
+print(data)
